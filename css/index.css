@@ -54,6 +54,7 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+
 }
 
 h1, h2, h3, h4, h5 {
@@ -66,6 +67,23 @@ p {
     line-height: 1.4;
 }
 
+header nav{
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content:space-between;
+    align-items:baseline;
+    padding:20px 2%;
+}
+
+header nav a{
+    color: #4f4f4f;
+    text-decoration: none;
+}
+
+.jumbo{
+    padding: 30px;
+    margin: 0 auto;
+}
 .container {
     width: 800px;
     margin: 0 auto;
@@ -77,6 +95,14 @@ p {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+
+.about-top{
+display:flex;
+flex-wrap: wrap;
+justify-content: left;
+margin: 0 0 20px 0;
+border-bottom: 1px dashed black;
 }
 
 .top-content .text-container {
@@ -112,6 +138,46 @@ p {
     justify-content: center;
 }
 
+#box1{
+    background-color: teal;
+}
+
+#box2{
+    background-color: gold;
+}
+
+#box3{
+    background-color:cadetblue;
+}
+
+#box4{
+    background-color:coral;
+}
+
+#box5{
+    background-color: crimson;
+}
+
+#box6{
+    background-color: forestgreen;
+}
+
+#box7{
+    background-color: darkorchid;
+}
+
+#box8{
+    background-color: hotpink;
+}
+
+#box9{
+    background-color: indigo;
+}
+
+#box0{
+    background-color: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +209,31 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.middle-a{
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 15px;
+    margin: 0 0 20px 0;
+    border-bottom: 1px dashed black;
+}
+
+.middle-b{
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 15px;
+    margin: 0 0 20px 0;
+    border-bottom: 1px dashed black;
+}
+
+button{
+    border: 2px solid black;
+    background-color: white;
+    padding: 8px 20px;
+    border-radius: 10px;
+}
+
+.about-bottom{
+    padding: 15px;
 }
